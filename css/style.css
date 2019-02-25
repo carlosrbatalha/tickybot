@@ -1,0 +1,250 @@
+
+/* Clear browser margins and padding */
+
+* { 
+
+ margin:0; padding:0;
+
+}
+
+ html {
+font-size: 100%;
+
+
+ }
+
+body {
+
+    font-family: Signika,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    font-weight: 300;
+    line-height: 1.5;
+
+ /* width:100%;*/ 
+}
+
+.container {
+
+  position: relative;
+}
+
+#top-arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+width: 48px;
+height: 48px;
+background-color: #FFCF6E;
+position: fixed;
+border-radius: 5px;
+
+bottom: 16px;
+right: 16px;
+z-index: 20;
+
+
+}
+
+#top-arrow > svg {
+width: 66%;
+
+}
+
+#website-header{
+display: flex;
+height: 60px;
+justify-content: center;
+align-items: center;
+background-color: #40596b;
+
+}
+
+.nav-link {
+display: inline;
+
+
+}
+
+.nav-link a {
+
+  text-decoration: none;
+  color: #ffd05a;
+  transition: color 0.5s ease;
+
+}
+
+.nav-link a:hover {
+
+
+  color: white;
+  
+}
+
+#nav-bar li {
+
+  margin-right:1rem;
+  font-size: 1.25rem ;
+
+}
+
+
+
+
+.the-h3 {
+  color:rgba(0,0,0,.75);
+
+font-size: 2.5rem;
+font-weight: normal;
+letter-spacing: -.125rem;
+flex-basis: 100%;
+position: relative;
+text-align: center;
+line-height: 3rem;
+margin-bottom: 3rem;
+
+}
+
+.the-h3:after {
+content: "";
+width: 10rem;
+position: absolute;
+bottom:-1px;
+left:50%;
+transform: translateX(-50%);
+height: 3px;
+background-color: #55c0ec;
+color: #55c0ec;
+
+
+}
+
+.the-ticky-2 {
+font-weight:bold;
+
+}
+
+
+
+#one {
+
+  background-color: #55c0ec;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: top;
+  width: 100%;
+  height: 100vh;
+}
+
+
+
+#two {
+background-color: #8FDDAF;
+
+}
+
+#three {
+padding: 40px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+background-color: #FAFAFA;
+
+
+}
+
+.button-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+
+}
+
+.third-section-button {
+  
+border-radius: 3px;
+ padding: 15px;
+ padding-right: 50px;
+ width: 48%;
+
+ background-color: #40596b;
+ color: hsla(0,0%,100%,.9);
+ font-size: 1.75rem;
+ font-family: inherit;
+ text-align: right;
+ position: relative;
+ margin-bottom: 5rem;
+  margin-top: 5rem;
+}
+
+.third-section-button > svg {
+
+  width: 40px;
+  height: 38px;
+  position: absolute;
+  left:48px;
+  top: 18px;
+
+
+}
+
+
+
+.website-text-three {
+  color:rgba(0,0,0,.75);
+  font-size: 1.25rem;
+  
+  
+  text-align: center;
+  max-width: 550px;
+
+
+}
+
+
+
+
+
+
+
+#website-footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #40596b;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+
+
+}
+
+.footer-info, p, .footer-a {
+  text-align: center;
+  font-size: .825rem;
+  margin-bottom: .25rem;
+  color: hsla(0,0%,100%,.75);
+  -webkit-font-smoothing: antialiased;
+}
+
+.heart-emoji {
+
+  margin-right: .25rem;
+}
+
+
+/* The End */
+
+
+  
+
+
+      
+
+
+
+
+
+
+      
